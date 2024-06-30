@@ -26,7 +26,7 @@ const io = require('socket.io')(server);
 io. on('connection', onConnected);
 
 function onConnected(socket) {
-  console.log('New socket connection...' , socket.id);
+  // console.log('New socket connection...' , socket.id);
 
   // User joins a room
   socket.on('joinRoom' , ({username, room}) => {
