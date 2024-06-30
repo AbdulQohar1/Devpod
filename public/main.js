@@ -10,9 +10,8 @@ const { username, room} = Qs.parse(location.search, {
   ignoreQueryPrefix: true
 });
 
-/*
-// Assuming you have the Qs library imported correctly
 
+/*
 // Extract the query string from the URL (if available)
 const queryString = location.search;
 
@@ -38,8 +37,7 @@ if (queryString) {
 } else {
   console.log("No query string found in the URL.");
   // Handle the case where there's no query string (e.g., provide default values)
-}
-
+};
 */
 console.log(username , room);
 // A user join chat room 
